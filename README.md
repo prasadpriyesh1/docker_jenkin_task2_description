@@ -68,7 +68,7 @@ Final Run command as follows-
 Now when you got to brower and access the 8082 port number 
 this will run jenkins. which will ask the initial password.
 
-![jenkins](https://github.com/narayanhari/JenkinsDocker_Task2/blob/master/jen.jpeg)
+![jenkins](https://github.com/narayanhari/JenkinsDocker_Task2/blob/master/jen.png)
 
 To find this open Host OS and type
 > cat /var/lib/jenkins/secrets/initialAdminPassword
