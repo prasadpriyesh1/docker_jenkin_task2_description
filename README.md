@@ -85,7 +85,17 @@ Now change the password and setup is done
 3. test_site
 
 ## get_code_doc_jen
-This job fetches the data from github and pastes it to the /var/www/html/ folder of our container.
->note: /var/www/html/ folder is mounted to /root/docker_jenkin_code/ folder in base os
+This job fetches the data from github and pastes it to the /var/www/html/ folder of our container
+>note: /var/www/html/ folder is mounted to /root/docker_jenkin_code/ folder in base os.
 
-![]
+
+![job1_img1](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(96).png)
+![job1_img2](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(97).png)
+
+## check_code
+This code uses linux scripting commands to check the type of code files and launches the required container image.
+This will automatically execute after get_code_doc_jen job.
+
+
+![job2_img1](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(91).png)
+![job2_img2](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(92).png)
