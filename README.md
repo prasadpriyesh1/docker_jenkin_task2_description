@@ -80,4 +80,12 @@ Now change the password and setup is done
 ## Problem 2
 
 ### Jenkin jobs
-1. 
+1. get_code_doc_jen
+2. check_code
+3. test_site
+
+## get_code_doc_jen
+This job fetches the data from github and pastes it to the /var/www/html/ folder of our container.
+>note: /var/www/html/ folder is mounted to /root/docker_jenkin_code/ folder in base os
+
+![]
