@@ -106,4 +106,4 @@ This is achieved using smtp server and 'email notification' post build action. T
 
 ![job3_img1](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(93).png)
 ![job3_img2](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(94).png)
-![job3_img3](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(1000).png)
+![job3_img3](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(100).png)
