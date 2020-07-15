@@ -13,7 +13,7 @@
 
 I created a dockerfile to install jenkins and docker inside the container. Since we cannot use systemctl inside docker container I cam up with an alternative to start jenkins and docker.
 ** note docker will be started during container creation
->FROM centos
+FROM centos
 
 
 RUN yum install git -y
@@ -60,7 +60,7 @@ Main problems to achieve the above task
  
 
 Final Run command as follows- 
-> docker run --network bridge -p 8082:8080 -p 8083:8083 -p 8084:8084 -p 8085:8085 -p 8086:8086 -v /var/lib/jenkins/secrets/initialAdminPassword:/var/lib/jenkins/secrets/initialAdminPassword -v /var/run/docker.sock:/var/run/docker.sock -v /root/devops/hw2/:/var/www/html/ --name jenkin_os jen_doc_img:v1
+> docker run --network bridge -p 8082:8080 -p 8083:8083 -p 8084:8084 -p 8085:8085 -p 8086:8086 -v /var/lib/jenkins/secrets/initialAdminPassword:/var/lib/jenkins/secrets/initialAdminPassword -v /var/run/docker.sock:/var/run/docker.sock -v /root/docker_jenkin_code/:/var/www/html/ --name jenkin_os jen_doc_img:v1
 
  
 
@@ -79,4 +79,5 @@ Now change the password and setup is done
 
 ## Problem 2
 
-Work still in progress
+### Jenkin jobs
+1. 
