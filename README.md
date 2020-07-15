@@ -93,9 +93,17 @@ This job fetches the data from github and pastes it to the /var/www/html/ folder
 ![job1_img2](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(97).png)
 
 ## check_code
-This code uses linux scripting commands to check the type of code files and launches the required container image.
+This job uses linux scripting commands to check the type of code files and launches the required container image.
 This will automatically execute after get_code_doc_jen job.
 
 
 ![job2_img1](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(91).png)
 ![job2_img2](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(92).png)
+
+## test_site
+This job tests if the site is running or not or not. If the site is not runnning then the email is automatically sent to prasadpriyesh1@gmail.com.
+This is achieved using smtp server and 'email notification' post build action. This job is automatically executed after check_code job
+
+![job3_img1](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(93).png)
+![job3_img2](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(94).png)
+![job3_img3](https://github.com/prasadpriyesh1/docker_jenkin_task2_description/blob/master/Screenshot%20(1000).png)
